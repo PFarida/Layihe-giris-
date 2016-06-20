@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<script src="index.js"></script>
+	 <script src="jquery-1.12.4.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+<div class="container">
+<div class="row">
+        <div class="col s12">
+          <div class="card white darken-1 size">
+            <div class="card-content valign center">
+              <span class="card-title">Registration</span>
+          </div>
+              <div class="col s12">
+              <div class="input-field col s6">
+          <input id="text" type="text" class="validate">
+          <label for="text" data-error="wrong" data-success="right">First Name *</label>
+        </div>
+
+          <div class="input-field col s6">
+          <input id="text" type="text" class="validate">
+          <label for="text" data-error="wrong" data-success="right">Last Name *</label>
+        </div>
+        </div>
+
+        <div class="input-field col s12">
+          <input id="mail" type="email" class="validate">
+          <label for="mail" data-error="wrong" data-success="right">Email *</label>
+        </div>
+
+        <div class="col s12">
+              <div class="input-field col s6">
+          <input id="text" type="text" class="validate">
+          <label for="text" data-error="wrong" data-success="right">Password *</label>
+        </div>
+
+          <div class="input-field col s6">
+          <input id="text" type="text" class="validate">
+          <label for="text" data-error="wrong" data-success="right">Confirm Password *</label>
+        </div>
+        </div>
+        <div class="col s12">
+        <div class="input-field col s6">
+          <input placeholder="+99450200000" id="first_name" type="text" class="validate">
+          <label for="first_name">Phone Number</label>
+        </div>
+
+        <div class="input-field col s6">
+          <i class="material-icons prefix" style="color:grey;">today</i>
+
+          <input placeholder="" id="first_name" type="date" class="datepicker">
+          <label for="icon_telephone">Birth date</label>
+        </div>
+        </div>
+
+         <div class="col s12">
+         	 <button class="subcol" type="submit" style="width: 100%"><span>Submit</span></button>
+
+
+         </div>
+        </div>
+        
+
+      </div>
+      </div>
+      </div>
+
+
+<script>
+	$('#textarea1').val('New Text');
+  $('#textarea1').trigger('autoresize');
+
+    $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+
+            
+</script>
+
+	
+            
+
+
+</body>
+</html>
